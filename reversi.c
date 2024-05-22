@@ -2,9 +2,6 @@
 // Author: Jerry (Jingling) Hou
 //
 
-#include "liblab8part2.h"
-#include "lab8part2.h"
-
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
