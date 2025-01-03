@@ -12,7 +12,7 @@ Reversi is played on an 8x8 board with two players: Black and White. The players
 
 ## How the Computer Player Algorithm Works
 
-The algorithm for the computer player in this Reversi game uses a **minimax-inspired heuristic evaluation** to decide its moves. While it does not implement a full-fledged AI with deep recursive search due to simplicity, it follows a structured approach to make competitive moves. Here's a step-by-step breakdown:
+The algorithm for the computer player in this Reversi game uses a **minimax-inspired heuristic evaluation** to decide its moves. Here's a step-by-step breakdown:
 
 1. **Enumerating Legal Moves**:
    - The computer first scans the entire board to identify all possible legal moves it can make. A move is legal if it satisfies the game rule of flanking at least one opponent piece in any direction.
@@ -89,8 +89,5 @@ Despite these limitations, the algorithm provides a competitive challenge for ca
 - Implement a deeper minimax algorithm with alpha-beta pruning for better move decisions.
 - Introduce difficulty levels by varying the depth of the search or adjusting the heuristic weights.
 - Optimize the scoring function to account for more advanced strategies.
-
-## Contact
-If you have any questions or suggestions, feel free to reach out!
 
 Enjoy playing Reversi!
